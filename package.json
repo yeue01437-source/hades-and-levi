@@ -1,0 +1,27 @@
+{
+  "name": "dice-tracker",
+  "version": "1.0.0",
+  "description": "Track dice game sessions from API and store history",
+  "main": "sun.js",
+  "scripts": {
+    "start": "node sun.js",
+    "dev": "nodemon sun.js"
+  },
+  "keywords": [
+    "dice",
+    "tracker",
+    "api",
+    "game"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "http": "^0.0.1-security",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
